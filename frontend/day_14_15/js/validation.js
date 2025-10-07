@@ -17,10 +17,10 @@ function register() {
    
 
     // Frontend validation for registration form
-    const name = document.getElementById('name').value.trim();
-    const email = document.getElementById('email').value.trim();
-    const username = document.getElementById('username').value.trim();
-    const password = document.getElementById('password').value.trim();
+    const name = document.getElementById('registerName').value.trim();
+    const email = document.getElementById('registerEmail').value.trim();
+    const username = document.getElementById('registerUsername').value.trim();
+    const password = document.getElementById('registerPassword').value.trim();
     
     if(!name || !email ||!username ||!password ){
         alert('All field are required.');
