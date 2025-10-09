@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./warehousesample.component.css']
 })
 export class WarehouseSampleComponent {
-
+  warehouse={
+    warehouseId:100,
+    supplierId:'1',
+    warehouseName: "xyzab",
+    location: "abcd",
+    capacity: 500
+  };
 }

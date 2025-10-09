@@ -7,9 +7,9 @@ export class Supplier {
     address:string;
     username:string;
     password:string;
-    role?:string;
+    role:string;
 
-    constructor( supplierId:number,supplierName:string,email:string,phone:string,address:string,username:string,password:string,role?:string){
+    constructor( supplierId:number,supplierName:string,email:string,phone:string,address:string,username:string,password:string,role:string){
         this.supplierId=supplierId;
         this.supplierName=supplierName;
         this.email=email;

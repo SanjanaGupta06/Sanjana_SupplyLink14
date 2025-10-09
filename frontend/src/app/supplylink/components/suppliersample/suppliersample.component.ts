@@ -12,4 +12,16 @@ import { of } from 'rxjs';
 })
 export class SupplierSampleComponent {
   // Component logic goes here
+
+  supplier={
+    supplierId:1,
+    supplierName: "abcd",
+    email:"abcd@gamil.com",
+    phone:"8776665552",
+    address:"xyz road ",
+    username: "abcd123",
+    password:"abcd@12",
+    role: 'maintenance'
+
+  };
 }
